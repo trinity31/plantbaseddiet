@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi">
+    <!-- load MUI -->
+    <link href="http://cdn.muicss.com/mui-0.5.0/css/mui.min.css" rel="stylesheet" type="text/css" />
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <script src="http://cdn.muicss.com/mui-0.5.0/js/mui.min.js"></script>
+    <script>
+    	function goFoodSearch() {
+    		console.log("dfsdf");
+   			 location.href = "foodsearch.html";
+		}
+    </script>
+<title>Plant Based Diet</title>
+<body>
+	<div class="top_menu">
+			<div class="login">Login</div>
+			<div class="login">Join</div>
+	</div>
+	<div class="title mui-appbar">
+		<img src="leaf.png" width=50 height=50>
+		<H1>Plant Based Diet</H1>
+	</div>
+	<div class="mui-appbar">
+		<div class="appbar_home"><img src="./icons/ic_home_black_24dp_2x.png"></div>
+		<div class="appbar_menu">레시피</div>
+		<div class="appbar_menu">식재료</div>
+		<div class="appbar_menu">장보기</div>
+	</div>
+	<div class="mui-container">
+		<div class="storage_name">
+			<H2>냉장실</H2>
+			<img src="./icons/ic_add_black_24dp_2x.png" onClick="goFoodSearch();" width=50 height=50>
+		</div>
+		<div class="storage_1">
+			<div class="food_item">
+				<p>재료가 없습니다.</p>
+			</div>
+		</div>
+		<div class="storage_name">
+			<H2>냉동실</H2>
+			<img src="./icons/ic_add_black_24dp_2x.png" onClick="goFoodSearch();" width=50 height=50>
+		</div>
+		<div class="storage_2">
+			<div class="food_item">
+				<p>재료가 없습니다.</p>
+			</div>
+		</div>
+		<div class="storage_name">
+			<H2>찬장</H2>
+			<img src="./icons/ic_add_black_24dp_2x.png" onClick="goFoodSearch();" width=50 height=50>
+		</div>
+		<div class="storage_3">
+			<div class="food_item">
+				<p>재료가 없습니다.</p>
+			</div>
+		</div>
+	</div>
+</body>
+</head>
+</html>
+

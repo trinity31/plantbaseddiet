@@ -1,0 +1,129 @@
+ .food_add {
+ 	width: 100%;
+ 	height: 100%;
+ 	padding:0;
+ 	margin: 0;
+ 	position: relative;
+ }
+
+.food_add_titlebar{
+	display: -webkit-box;
+	background-color: rgba(33, 150, 243, 1);
+	width: 100%;
+	height:10%
+}
+
+.back_to_foodsearch {
+	width: 10%;
+	height:100%;
+}
+
+.food_add_title {
+	width: 90%;
+	height:100%;
+	font-size: 35px;
+	vertical-align: middle;
+}
+
+.food_create img {
+	width:10%;
+	height:100%;
+}
+
+.food_add_name {
+	width:100%;
+	height:20%;
+	margin-left: 15px;
+	font-size: 50px;
+	vertical-align: middle;
+}
+
+.food_add_name p {
+	height: 100%;
+	font-size: 30px;
+	margin-left: 15px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.expiration {
+	display: -webkit-box;
+	width: 100%
+	height: 10%;
+	display:flex;
+	align-items:center;
+}
+
+.expiration_text {
+	width: 40%;
+	height: 100%;
+	margin-left: 15px;
+	font-size: 20px;
+}
+
+.expiration_img {
+	width: 10%;
+	height: 100%;
+	align-content: center;
+}
+
+.expiration_set {
+	width: 40%;
+	height: 100%;
+	border: none;
+	font-size: 20px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+::-webkit-input-placeholder {
+    color: black;
+    background-color: rgba(33, 150, 243, 1);
+    border: none;
+}
+
+.storage {
+	display: -webkit-box;
+	width: 100%;
+	height: 10%;
+	display:flex;
+	align-items:center;
+}
+
+.storage_text {
+	width: 40%;
+	height: 100%;
+	font-size: 20px;
+	margin-left: 15px;
+}
+
+.storage_select {
+	width: 50%;
+	height: 100%;
+}
+
+.submit_buttons {
+	position: fixed;
+	display: -webkit-box;
+	bottom: 0px;
+	width:100%;
+	height:10%;
+}
+
+.button_cancel {
+	width: 50%;
+	height: 100%;
+}
+
+.button_cancel button {
+	width:100%;
+}
+
+.button_add {
+	width: 50%;
+	height: 100%;
+}
+
+.button_add button {
+	width:100%;
+}

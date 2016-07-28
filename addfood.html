@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi">
+    <!-- load MUI -->
+    <link href="http://cdn.muicss.com/mui-0.5.0/css/mui.min.css" rel="stylesheet" type="text/css" />
+    <link href="addfood.css" rel="stylesheet" type="text/css" />
+    <link href="jquery.timepicker.css" rel="stylesheet" type="text/css" />
+    <script src="http://cdn.muicss.com/mui-0.5.0/js/mui.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="jquery.timepicker.min.js"></script>
+    <script src="jquery.datepair.js"></script>
+<title>Plant Based Diet</title>
+<body>
+	<div class="food_add">
+		 <div class="food_add_titlebar">
+			<div class="back_to_foodsearch">
+				<img src="./icons/ic_keyboard_backspace_black_24dp_2x.png">
+			</div>
+			<div class="food_add_title">
+				재료 추가
+			</div>
+		</div>
+		<div class="food_add_name">
+			음식명
+		</div>
+
+		<div class="mui-divider"></div>
+
+		<div class="expiration">
+			<div class="expiration_text">
+				`유효기간
+			</div>
+			<div class="expiration_img">
+				<img src="./icons/ic_av_timer_black_24dp_2x.png">
+			</div>
+			<div class="expiration_set">
+			<form>
+				<input class="term" type="text" name="date" placeholder="미설정">
+				<script type="text/javascript">
+				$(document).ready(function() {
+					$('#dateForm [name="date"]').datepicker({
+					dateFormat: 'yy-mm-dd',
+					maxDate: 0
+					});
+				});
+				</script>
+			</form>
+			</div>
+		</div>
+
+		<div class="mui-divider"></div>
+
+		<div class="storage">
+			<div class="storage_text">
+				보관장소
+			</div>
+
+			<div class="mui-dropdown storage_select">
+			  <button class="mui-btn mui-btn--primary" data-mui-toggle="dropdown">
+			    냉장실
+			    <span class="mui-caret"></span>
+			  </button>
+			  <ul class="mui-dropdown__menu">
+			    <li><a href="#">냉장실</a></li>
+			    <li><a href="#">냉동실</a></li>
+			    <li><a href="#">상온보관</a></li>
+			  </ul>
+			</div>
+		</div>
+				
+		<div class="mui-divider"></div>
+
+		<div class="submit_buttons">
+			<div class="button_cancel">
+		  		<button class="mui-btn">취소</button>
+		  	</div>
+		  	<div class="button_add">
+		  		<button class="mui-btn mui-btn--primary">추가</button>
+		  	</div>
+		</div>
+
+	</div>
+</body>
+</head>
+</html>
+
